@@ -1,0 +1,41 @@
+body {
+    background: rgb(0, 91, 151);
+    background: linear-gradient(90deg, rgba(0, 91, 151, 1) 0%, rgba(30, 156, 215, 0.7207678883071553) 0%, rgba(253, 167, 90, 1) 100%);
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+
+    color: blanchedalmond;
+}
+
+#inspirationalQuotes {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid wheat;
+    border-width: 8px;
+    border-radius: 15pt;
+    background-color: rgb(26, 43, 55);
+    padding: 10px;
+
+}
+
+#quoteText {
+    text-align: center;
+    color: azure;
+}
+
+#authorName {
+    font-family: "Sofia", sans-serif;
+    text-align: right;
+    font-style: italic;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+button {
+    margin: 10px 45% 10px 45%;
+    width: 76px;
+    border-radius: 15px;
+    color: blanchedalmond;
+    background-color: rgb(26, 43, 55);
+}

@@ -1,0 +1,199 @@
+
+body
+{
+    font-family: 'Kanit', sans-serif;
+    background-color: #506E73;
+  
+    background-image:  radial-gradient(#edf8ff 1.5px, transparent 1.5px), radial-gradient(#fdfeff 1.5px, #506E73 1.5px);
+    background-size: 60px 60px;
+    background-position: 0 0,30px 30px;
+}
+
+h4{   font-size: 35px;
+    margin: 3px;
+    padding: 5px;
+    color: rgb(255, 246, 246);
+    cursor: help;
+    margin-left: 20px;}
+
+p{
+    margin-left: 25px;
+    color:rgb(248, 243, 243);
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+a{
+    color:rgb(15, 14, 14);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.quote
+{
+    border: 15pt;
+   
+    width: 1320px;
+    height:600px;
+    padding:20px;
+    margin: 20px;
+   
+    display: block;
+    text-align: center;
+}
+
+#grand-grand-parent1, #grand-grand-parent2 {
+    display:flex;
+    flex-shrink: 0; /* shrinks to 0 to apply 50% width*/
+    flex-basis: 50%;
+}
+
+.g1, .g2{
+    flex-shrink: 0; /* shrinks to 0 to apply 50% width*/
+    flex-basis: 42%; /* sets initial width to 50% */
+}
+
+.g3, .g4{
+    flex-shrink: 0; /* shrinks to 0 to apply 50% width*/
+    flex-basis: 42%; /* sets initial width to 50% */
+}
+
+.g1, .g2, .g3, .g4
+{
+    width: 80px;
+    height:150px;
+    padding:30px;
+    margin: 10px 5px 15px 30px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    /* overflow: hidden; */
+    border: none;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: rgba(90, 90, 90, 1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 1px 39px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 39px 0 rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+
+
+}
+
+/* adding animation to the box of code */
+.g1:hover, .g2:hover, .g3:hover, .g4:hover {
+
+    background: rgba(255, 255, 255, 0.568);
+    -webkit-box-shadow: 1px 1px 39px 0 rgba(0, 0, 0, 0.972);
+    box-shadow: 1px 1px 39px 0 rgba(0, 0, 0, 0.627);
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 555;
+}
+
+
+#grant-parent:hover
+{
+    transform: scale(1.07);
+}
+
+
+.get
+{
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    background: linear-gradient(90deg, rgb(85, 196, 85), orange, rgb(242, 68, 68));
+    padding: 12px 35px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin-bottom: 400px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.getCompiler 
+{
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    background: linear-gradient(90deg, rgb(118, 122, 235), orange, rgb(72, 235, 110));
+    padding: 12px 35px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin-bottom: 400px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.get:hover
+{
+    transform: scale(1.07);
+}
+
+.getCompiler:hover
+{
+    transform: scale(1.07);
+}
+
+#child1, #child2, #child3, #child4 
+{
+    margin-top: 30px;
+    font-style: italic;
+    text-align: right; 
+    margin-right: 140px;   
+}
+
+.quote > header
+{   
+    font-size:larger;
+    font-weight: bold;
+    color: #edf8ff;
+    cursor: pointer;
+}
+
+.quote > header:hover
+{
+    transform: scale(1.07);
+}
+
+.quote > header {
+    position: relative;
+    animation: mymove 20s infinite;
+    animation-delay: 2s;
+    cursor: pointer;
+
+  }
+  
+  @keyframes mymove {
+    from {left: 500px;}
+    to {left: -500px;}
+  }
+
+  .get 
+  {
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 50%;
+    }}
